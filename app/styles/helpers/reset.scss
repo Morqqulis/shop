@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+*,
+*::before,
+*::after {
+
+    box-sizing: border-box;
+
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+svg {
+    transition: all 0.7s ease 0s;
+}
+
+button {
+    font-size: inherit;
+    font-family: inherit;
+    background-color: inherit;
+    cursor: pointer;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+input,
+textarea {
+    font-size: inherit;
+}
+
+html,
+body {
+    // font-family: $fontFamily;
+    font-size: $fontSize;
+    color: $textColor;
+    background: $bgColor;
+    min-width: $minWidth + px;
+    height: 100%;
+
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: inherit;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    
+    height: 100%;
+
+    >main {
+        flex: 1 1 100%;
+    }
+
+}
+
+
+
+//----------------------------------------------

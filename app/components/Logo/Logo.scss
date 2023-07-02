@@ -1,0 +1,68 @@
+.logo {
+    height: auto;
+    display: grid;
+    justify-items: center;
+    text-align: center;
+    grid-gap: 5px;
+    align-items: center;
+    width: 150px;
+    transition: all 0.3s ease 0s;
+    height: 100%;
+    justify-self: center;
+
+    @media (any-hover: hover) {
+        &:hover {
+            
+
+            .text {
+                text {
+                    fill: crimson;
+                }
+            }
+        }
+    }
+
+}
+
+.text {
+    max-width: 300px;
+    width: 100%;
+    transition: all 0.3s ease 0s;
+
+    &:first-child {
+        transform: translateX(25px);
+    }
+
+    text {
+        transition: all 0.3s ease 0s;
+        color: crimson;
+        stroke-width: 3px;
+        stroke-dashoffset: -800;
+        stroke-dasharray: 800;
+
+        &.is-active {
+            animation-name: text;
+            animation-duration: 3s;
+            animation-iteration-count: 1;
+            animation-fill-mode: forwards;
+        }
+    }
+}
+
+@keyframes text {
+    50% {
+        fill: transparent;
+    }
+
+    75% {
+        fill: transparent;
+        stroke-dashoffset: 0;
+        stroke-width: 3px;
+    }
+
+    100% {
+        stroke-dashoffset: 0;
+        fill: gold;
+        stroke-width: 0px;
+    }
+}

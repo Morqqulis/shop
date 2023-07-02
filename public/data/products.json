@@ -1,0 +1,28 @@
+[
+	{
+		"id": 1,
+		"name": "Eshumi",
+		"image": "/products/card/1.jpg",
+		"price": 9.99,
+		"newPrice": 5.99,
+		"discount": 0,
+		"description": "Описание товара...",
+		"type": "cream",
+		"quantity": 5,
+		"rating": 2,
+		"category": "body"
+	},
+	{
+		"id": 2,
+		"name": "MISSHA",
+		"image": "/products/card/2.jpg",
+		"price": 19.99,
+		"newPrice": 14.99,
+		"discount": 50,
+		"description": "Описание товара...",
+		"type": "cream",
+		"quantity": 10,
+		"rating": 5,
+		"category": "face"
+	}
+]
